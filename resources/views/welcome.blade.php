@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel FotoPro Project
+                    FotoPro
                 </div>
 
                 <div class="links">

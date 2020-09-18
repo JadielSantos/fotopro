@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b1df82fd-840e-46b7-a669-8300a3121c0e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,13 +168,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views" />
+      <recent name="$PROJECT_DIR$/resources/views/site" />
       <recent name="$PROJECT_DIR$/app/Models" />
     </key>
   </component>
@@ -208,7 +216,15 @@
       <workItem from="1597283793577" duration="2525000" />
       <workItem from="1597287561140" duration="1436000" />
       <workItem from="1597289018468" duration="383000" />
-      <workItem from="1597289420478" duration="128000" />
+      <workItem from="1597289420478" duration="3517000" />
+      <workItem from="1597634477337" duration="1660000" />
+      <workItem from="1597684639911" duration="14000" />
+      <workItem from="1597684684534" duration="879000" />
+      <workItem from="1598650993542" duration="10365000" />
+      <workItem from="1598874759403" duration="19000" />
+      <workItem from="1598901606790" duration="4000" />
+      <workItem from="1599256332211" duration="1442000" />
+      <workItem from="1599570541503" duration="483000" />
     </task>
     <servers />
   </component>
@@ -216,6 +232,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1865" y="100" width="912" height="904" key="CommitChangelistDialog2" timestamp="1598653433972">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1865" y="100" width="912" height="904" key="CommitChangelistDialog2/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1598653433972" />
     <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1597203987786">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
@@ -232,14 +252,18 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="278" key="GridCell.Tab.0.right/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1597203987786" />
-    <state x="1815" y="187" key="SettingsEditor" timestamp="1597284932735">
+    <state x="1815" y="187" key="SettingsEditor" timestamp="1597686492487">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1815" y="187" key="SettingsEditor/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1597284932735" />
+    <state x="1815" y="187" key="SettingsEditor/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1597686492487" />
     <state x="2017" y="184" width="618" height="824" key="find.popup" timestamp="1597286170137">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2017" y="184" width="618" height="824" key="find.popup/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1597286170137" />
+    <state x="0" y="156" width="539" height="612" key="git4idea.branch.GitSmartOperationDialog" timestamp="1599266278025">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="0" y="156" width="539" height="612" key="git4idea.branch.GitSmartOperationDialog/1366.0.1920.1080/0.27.1366.741@0.27.1366.741" timestamp="1599266278025" />
     <state x="1989" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1597286137124">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
