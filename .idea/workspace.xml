@@ -2,11 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1df82fd-840e-46b7-a669-8300a3121c0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/images/hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/test-party.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/test-restaurant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/test-tree.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/abstract/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/abstract/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/base/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/base/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/base/_utils.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/components/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/components/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/layout/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/layout/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/layout/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/pages/_landing-page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/landing-page/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fotopro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fotopro.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/photos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/photos.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,6 +185,7 @@
       <path value="$PROJECT_DIR$/vendor/opis/closure" />
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/laraveldaily/theme-downloader" />
     </include_path>
   </component>
   <component name="ProjectId" id="1fytQ88GNcidHHW7axpt89vyQPj" />
@@ -172,11 +199,15 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/resources/views/site" />
@@ -225,6 +256,8 @@
       <workItem from="1598901606790" duration="4000" />
       <workItem from="1599256332211" duration="1442000" />
       <workItem from="1599570541503" duration="483000" />
+      <workItem from="1600470254312" duration="36000" />
+      <workItem from="1600470342301" duration="4480000" />
     </task>
     <servers />
   </component>
@@ -236,22 +269,22 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1865" y="100" width="912" height="904" key="CommitChangelistDialog2/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1598653433972" />
-    <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1597203987786">
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1600471884596">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1597203987786" />
-    <state width="1874" height="278" key="GridCell.Tab.0.center" timestamp="1597203987786">
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1600471884596" />
+    <state width="1874" height="278" key="GridCell.Tab.0.center" timestamp="1600471884596">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.center/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1597203987786" />
-    <state width="1874" height="278" key="GridCell.Tab.0.left" timestamp="1597203987786">
+    <state width="1874" height="278" key="GridCell.Tab.0.center/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1600471884596" />
+    <state width="1874" height="278" key="GridCell.Tab.0.left" timestamp="1600471884596">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.left/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1597203987786" />
-    <state width="1874" height="278" key="GridCell.Tab.0.right" timestamp="1597203987786">
+    <state width="1874" height="278" key="GridCell.Tab.0.left/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1600471884596" />
+    <state width="1874" height="278" key="GridCell.Tab.0.right" timestamp="1600471884596">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.right/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1597203987786" />
+    <state width="1874" height="278" key="GridCell.Tab.0.right/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1600471884596" />
     <state x="1815" y="187" key="SettingsEditor" timestamp="1597686492487">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
@@ -264,9 +297,9 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="0" y="156" width="539" height="612" key="git4idea.branch.GitSmartOperationDialog/1366.0.1920.1080/0.27.1366.741@0.27.1366.741" timestamp="1599266278025" />
-    <state x="1989" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1597286137124">
+    <state x="1989" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1600472565503">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1989" y="257" width="672" height="678" key="search.everywhere.popup/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1597286137124" />
+    <state x="1989" y="257" width="672" height="678" key="search.everywhere.popup/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1600472565503" />
   </component>
 </project>

@@ -33,6 +33,7 @@ Route::group(
   });
 });
 
+Route::get('/', 'LandingPageController@landing_page')->name('landing-page');
 
 Route::get('/login', function () {
   return 'Login';

@@ -1,4 +1,4 @@
-<a href="{{ route('index') }}">< Voltar</a>
+<a href="{{ route('landing-page') }}">< Voltar</a>
 
 <h1>Página Sobre</h1>
 
