@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1df82fd-840e-46b7-a669-8300a3121c0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/images/hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/test-party.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/test-restaurant.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/test-tree.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/abstract/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/abstract/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/base/_base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/base/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/base/_utils.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/components/_button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/components/_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/layout/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/layout/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/layout/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/pages/_landing-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/landing-page/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fotopro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fotopro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/about.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/contact.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/photos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/photos.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calendario/2020-09-18 - aula05  apresentacao do problema (publico)/RelatorioSemanal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/calendario/2020-09-18 - aula05  apresentacao do problema (publico)/RelatorioSemanal.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +228,7 @@
       <workItem from="1599256332211" duration="1442000" />
       <workItem from="1599570541503" duration="483000" />
       <workItem from="1600470254312" duration="36000" />
-      <workItem from="1600470342301" duration="4480000" />
+      <workItem from="1600470342301" duration="5011000" />
     </task>
     <servers />
   </component>
