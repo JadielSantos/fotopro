@@ -2,8 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1df82fd-840e-46b7-a669-8300a3121c0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/portfolio/fullsize/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/portfolio/fullsize/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/portfolio/fullsize/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/portfolio/fullsize/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/portfolio/fullsize/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/portfolio/fullsize/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/portfolio/thumbnails/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/portfolio/thumbnails/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/portfolio/thumbnails/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/portfolio/thumbnails/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/portfolio/thumbnails/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/portfolio/thumbnails/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fotopro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fotopro.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calendario/2020-09-18 - aula05  apresentacao do problema (publico)/RelatorioSemanal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/calendario/2020-09-18 - aula05  apresentacao do problema (publico)/RelatorioSemanal.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/bg-masthead.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/images/hero.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landing-page/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landing-page/partials/call-to-action.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landing-page/partials/footer.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landing-page/partials/icons-grid.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landing-page/partials/image-showcases.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landing-page/partials/masthead.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landing-page/partials/navigation.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landing-page/partials/scripts.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landing-page/partials/testimonials.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landing-page/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/hero.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/nav.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/about.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/contact.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/home.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/photos.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,6 +201,7 @@
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/vendor/laraveldaily/theme-downloader" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1fytQ88GNcidHHW7axpt89vyQPj" />
@@ -168,21 +213,23 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/site" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/resources/views/site" />
       <recent name="$PROJECT_DIR$/app/Models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/site" />
+      <recent name="$PROJECT_DIR$/resources/images" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.phpunit.xml">
@@ -228,7 +275,9 @@
       <workItem from="1599256332211" duration="1442000" />
       <workItem from="1599570541503" duration="483000" />
       <workItem from="1600470254312" duration="36000" />
-      <workItem from="1600470342301" duration="5011000" />
+      <workItem from="1600470342301" duration="5121000" />
+      <workItem from="1601069746877" duration="3828000" />
+      <workItem from="1601074814556" duration="6879000" />
     </task>
     <servers />
   </component>
@@ -236,30 +285,38 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2143" y="219" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601075846042">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2143" y="219" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1601075846042" />
     <state x="1865" y="100" width="912" height="904" key="CommitChangelistDialog2" timestamp="1598653433972">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1865" y="100" width="912" height="904" key="CommitChangelistDialog2/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1598653433972" />
-    <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1600471884596">
+    <state width="1291" height="278" key="GridCell.Tab.0.bottom" timestamp="1601076270036">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1600471884596" />
-    <state width="1874" height="278" key="GridCell.Tab.0.center" timestamp="1600471884596">
+    <state width="1291" height="278" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1601076270036" />
+    <state width="1291" height="278" key="GridCell.Tab.0.center" timestamp="1601076270036">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.center/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1600471884596" />
-    <state width="1874" height="278" key="GridCell.Tab.0.left" timestamp="1600471884596">
+    <state width="1291" height="278" key="GridCell.Tab.0.center/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1601076270036" />
+    <state width="1291" height="278" key="GridCell.Tab.0.left" timestamp="1601076270036">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.left/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1600471884596" />
-    <state width="1874" height="278" key="GridCell.Tab.0.right" timestamp="1600471884596">
+    <state width="1291" height="278" key="GridCell.Tab.0.left/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1601076270036" />
+    <state width="1291" height="278" key="GridCell.Tab.0.right" timestamp="1601076270036">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.right/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1600471884596" />
-    <state x="1815" y="187" key="SettingsEditor" timestamp="1597686492487">
+    <state width="1291" height="278" key="GridCell.Tab.0.right/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1601076270036" />
+    <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1601076268568">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1815" y="187" key="SettingsEditor/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1597686492487" />
+    <state width="263" height="500" key="HiddenNamespacesPopup/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1601076268568" />
+    <state x="1815" y="187" key="SettingsEditor" timestamp="1601075594822">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1815" y="187" key="SettingsEditor/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1601075594822" />
     <state x="2017" y="184" width="618" height="824" key="find.popup" timestamp="1597286170137">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
@@ -272,5 +329,9 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1989" y="257" width="672" height="678" key="search.everywhere.popup/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1600472565503" />
+    <state x="2051" y="466" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1601078260395">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2051" y="466" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1601078260395" />
   </component>
 </project>
