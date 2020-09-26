@@ -5,7 +5,7 @@ Relatar O QUE FOI FEITO:
 -Instalei o módulo theme-downloader;
 -Através deste módulo eu pude baixar uma Landing Page estilizada (bootstrap);
 -Setei vários arquivos base de estilização (scss) que utilizarei;
--Compilei alguns destes arquivos, porém alguns estão dando erro, e as variáveis não estão compilando, assim terei que investigar melhor este modo de compilação (Laravel-mix_.
+-Compilei alguns destes arquivos, porém alguns estão dando erro, e as variáveis não estão compilando, assim terei que investigar melhor este modo de compilação (Laravel-mix).
 
 Relatar QUEM FOI O RESPONSÁVEL
 Jadiel dos Santos
