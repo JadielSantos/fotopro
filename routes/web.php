@@ -118,6 +118,18 @@ Route::middleware([])->group(function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('home', 'HomeController@index')->name('home');
 
-Route::view('/', 'index');
+Route::view('', 'landing-page')->name('landing-page');
+
+Route::view('logar', 'auth.login')->name('login');
+
+Route::view('registrar', 'auth.register')->name('register');
+
+Route::view('galeria/criar', 'gallery.create')->name('create');
+
+Route::view('galeria/upload', 'gallery.upload')->name('upload');
+
+Route::post('upload', 'UploadController@upload')->name('uploadController');
+
+Route::resource('galerias', 'GalleryController')->names('galleries')->parameters(['galerias' => 'galleries']);
