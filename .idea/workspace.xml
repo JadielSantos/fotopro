@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1df82fd-840e-46b7-a669-8300a3121c0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/gallery/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/gallery/upload.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/landing-page/img/bg-masthead.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calendario/2020-10-02 - aula07 desenvolvimento do projeto/RelatorioSemanal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/calendario/2020-10-02 - aula07 desenvolvimento do projeto/RelatorioSemanal.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +235,7 @@
       <workItem from="1601069746877" duration="3828000" />
       <workItem from="1601074814556" duration="7199000" />
       <workItem from="1601299735992" duration="60000" />
-      <workItem from="1601674397186" duration="12329000" />
+      <workItem from="1601674397186" duration="12516000" />
     </task>
     <servers />
   </component>
