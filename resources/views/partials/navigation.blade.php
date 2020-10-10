@@ -1,9 +1,16 @@
-<nav class="navbar navbar-light bg-light static-top">
-    <div class="container">
-      <a class="navbar-brand" href="{{ route('landing-page') }}">FotoPro</a>
-      <div class="">
-        <a class="btn btn-primary" href="{{ route('login') }}">Entrar</a>
-        <a class="btn btn-secondary" href="{{ route('register') }}">Registrar-se</a>
-      </div>
-    </div>
-</nav>
+{{--<div class="navigation">--}}
+{{--  <input type="checkbox" class="navigation__checkbox" id="navi-toggle">--}}
+{{--  <label for="navi-toggle" class="navigation__button">MENU</label>--}}
+
+{{--  <div class="navigation__background">&nbsp;</div>--}}
+
+{{--  <nav class="navigation__nav">--}}
+{{--    <ul class="navigation__list">--}}
+{{--      <li class="navigation__item"><a href="#" class="navigation__link">About Natours</a></li>--}}
+{{--      <li class="navigation__item"><a href="#" class="navigation__link">Your benefits</a></li>--}}
+{{--      <li class="navigation__item"><a href="#" class="navigation__link">Popular tours</a></li>--}}
+{{--      <li class="navigation__item"><a href="#" class="navigation__link">Stories</a></li>--}}
+{{--      <li class="navigation__item"><a href="#" class="navigation__link">Book now</a></li>--}}
+{{--    </ul>--}}
+{{--  </nav>--}}
+{{--</div>--}}

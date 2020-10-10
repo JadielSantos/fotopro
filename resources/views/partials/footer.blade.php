@@ -1,45 +1,22 @@
-<footer class="footer bg-light">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-                <ul class="list-inline mb-2">
-                    <li class="list-inline-item">
-                        <a href="#">Sobre</a>
-                    </li>
-                    <li class="list-inline-item">&sdot;</li>
-                    <li class="list-inline-item">
-                        <a href="#">Contato</a>
-                    </li>
-                    <li class="list-inline-item">&sdot;</li>
-                    <li class="list-inline-item">
-                        <a href="#">Termos de uso</a>
-                    </li>
-                    <li class="list-inline-item">&sdot;</li>
-                    <li class="list-inline-item">
-                        <a href="#">Política de Privacidade</a>
-                    </li>
-                </ul>
-                <p class="text-muted small mb-4 mb-lg-0">&copy; FotoPro 2020. Todos os direitos reservados.</p>
-            </div>
-            <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-                <ul class="list-inline mb-0">
-                    <li class="list-inline-item mr-3">
-                        <a href="#">
-                            <i class="fa fa-facebook fa-2x fa-fw"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item mr-3">
-                        <a href="#">
-                            <i class="fa fa-twitter fa-2x fa-fw"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#">
-                            <i class="fa fa-instagram fa-2x fa-fw"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+<footer class="footer">
+  <div class="footer__logo-box">
+    <img src="" alt="Fotopro logo" class="footer__logo">
+  </div>
+  <div class="row">
+    <div class="col-1-of-2">
+      <div class="footer__navigation">
+        <ul class="footer__list">
+          <li class="footer__item"><a href="#" class="footer__link">Empresa</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Fale conosco</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Política de privacidade</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Termos de uso</a></li>
+        </ul>
+      </div>
     </div>
+    <div class="col-1-of-2">
+      <p class="footer__copyright">
+        Design feito por <a href="" class="footer__link">Jadiel dos Santos</a>. Copyright &copy; by Jonas Schmedtmann.
+      </p>
+    </div>
+  </div>
 </footer>
