@@ -20,71 +20,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1df82fd-840e-46b7-a669-8300a3121c0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/img/bg-feature.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/css/icon-font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/fonts/linea-basic-10.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/fonts/linea-basic-10.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/fonts/linea-basic-10.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/fonts/linea-basic-10.woff" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/img/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/partials/feature.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/partials/header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/partials/plans.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/photo-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/photo-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/photo-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/photo-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/photo-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/photo-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/photo-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/layout/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/pages/_sign-in-out.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/pages/_workspace.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/logged-in/tools/gallery.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/cta-register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/description.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GalleryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GalleryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/bg-masthead.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/img/hero.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/fullsize/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/fullsize/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/fullsize/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/fullsize/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/fullsize/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/fullsize/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/thumbnails/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/thumbnails/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/thumbnails/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/thumbnails/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/thumbnails/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/thumbnails/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/test-party.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/test-restaurant.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/test-tree.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/nat-1-large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/nat-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/nat-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/nat-2-large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/nat-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/nat-3-large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/nat-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/nat-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/nat-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/nat-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/nat-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/nat-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/nat-9.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/bg-masthead.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/portfolio/fullsize/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/portfolio/fullsize/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/portfolio/fullsize/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/portfolio/fullsize/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/portfolio/fullsize/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/portfolio/fullsize/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/portfolio/thumbnails/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/portfolio/thumbnails/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/portfolio/thumbnails/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/portfolio/thumbnails/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/portfolio/thumbnails/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/portfolio/thumbnails/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/test-party.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/test-restaurant.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/test-tree.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/abstract/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/abstract/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/img/nat-1-large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/img/nat-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/img/nat-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/img/nat-2-large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/img/nat-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/img/nat-3-large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/img/nat-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/img/nat-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/img/nat-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/img/nat-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/img/nat-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/img/nat-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/img/nat-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/abstract/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/abstract/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/base/_base.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/base/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/base/_utils.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/components/_button.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/components/_card.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/layout/_footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/layout/_grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/layout/_header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/pages/_landing-page.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/landing-page.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/base/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/base/_utils.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/base/_utils.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/components/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/layout/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/layout/_navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/logged-in/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landing-page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/landing-page.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/call-to-action.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/feature.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/feature.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/partials/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/icons-grid.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/masthead.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/image-showcases.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/partials/navigation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/navigation.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/scripts.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/plans.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/plans.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -261,6 +267,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/logged-in" />
       <recent name="$PROJECT_DIR$/app/Models" />
       <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/resources/views/landing-page" />
@@ -268,9 +275,10 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/img" />
+      <recent name="$PROJECT_DIR$/resources" />
+      <recent name="$PROJECT_DIR$/resources/css" />
       <recent name="$PROJECT_DIR$/resources/sass" />
       <recent name="$PROJECT_DIR$/resources/images" />
-      <recent name="$PROJECT_DIR$/public/site" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.phpunit.xml">
@@ -321,7 +329,11 @@
       <workItem from="1601074814556" duration="7199000" />
       <workItem from="1601299735992" duration="60000" />
       <workItem from="1601674397186" duration="12605000" />
-      <workItem from="1602279633441" duration="10622000" />
+      <workItem from="1602279633441" duration="11049000" />
+      <workItem from="1602591502556" duration="229000" />
+      <workItem from="1602644370464" duration="6330000" />
+      <workItem from="1602727583344" duration="9958000" />
+      <workItem from="1602810139897" duration="16391000" />
     </task>
     <servers />
   </component>
@@ -338,6 +350,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2143" y="219" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601075846042">
@@ -352,10 +365,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1865" y="100" width="912" height="904" key="CommitChangelistDialog2/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1598653433972" />
-    <state x="1466" y="127" width="1720" height="853" key="DiffContextDialog" timestamp="1602287060807">
+    <state x="1466" y="127" width="1720" height="853" key="DiffContextDialog" timestamp="1602826418978">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1466" y="127" width="1720" height="853" key="DiffContextDialog/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1602287060807" />
+    <state x="1466" y="127" width="1720" height="853" key="DiffContextDialog/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1602826418978" />
     <state width="1291" height="278" key="GridCell.Tab.0.bottom" timestamp="1601076270036">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>

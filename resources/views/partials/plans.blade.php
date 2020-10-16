@@ -30,7 +30,7 @@
               <p class="card__price-only">Apenas</p>
               <p class="card__price-value">R$ 25,00</p>
             </div>
-            <a href="#" class="btn btn--white">Assine agora!</a>
+            <a href="{{ route('register') }}" class="btn btn--white">Assine agora!</a>
           </div>
         </div>
       </div>
@@ -59,7 +59,7 @@
               <p class="card__price-only">Apenas</p>
               <p class="card__price-value">R$ 69,90</p>
             </div>
-            <a href="#" class="btn btn--white">Assine agora!</a>
+            <a href="{{ route('register') }}" class="btn btn--white">Assine agora!</a>
           </div>
         </div>
       </div>
@@ -88,7 +88,7 @@
               <p class="card__price-only">Apenas</p>
               <p class="card__price-value">R$ 79,90</p>
             </div>
-            <a href="#" class="btn btn--white">Assine agora!</a>
+            <a href="{{ route('register') }}" class="btn btn--white">Assine agora!</a>
           </div>
         </div>
       </div>

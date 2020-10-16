@@ -1,7 +1,7 @@
 <footer class="footer">
-  <div class="footer__logo-box">
-    <img src="" alt="Fotopro logo" class="footer__logo">
-  </div>
+{{--  <div class="footer__logo-box">--}}
+{{--    <img src="{{ asset('img/icon.png') }}" alt="Fotopro logo" class="footer__logo">--}}
+{{--  </div>--}}
   <div class="row">
     <div class="col-1-of-2">
       <div class="footer__navigation">

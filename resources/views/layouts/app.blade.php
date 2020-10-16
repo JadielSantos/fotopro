@@ -16,11 +16,16 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
     <!-- Styles -->
+    <link href="{{ asset('css/icon-font.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/navigation.css') }}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="{{ asset("img/icon.png") }}">
   </head>
   <body>
     <div id="app">
-      @include('partials.navigation')
+      @unless (Route::currentRouteName() === 'landing-page')
+        @include('partials.navigation')
+      @endunless
 
       <main class="py-4">
         @yield('content')

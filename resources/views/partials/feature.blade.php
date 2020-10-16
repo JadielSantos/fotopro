@@ -12,7 +12,7 @@
     <div class="col-1-of-4">
       <div class="feature-box">
         <i class="feature-box__icon icon-basic-compass"></i>
-        <h3 class="heading-tertiary u-margin-bottom-small">Organize seu trabalho</h3>
+        <h3 class="heading-tertiary u-margin-bottom-small">Direção certa</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore necessitatibus deleniti dolorum!</p>
       </div>
     </div>
