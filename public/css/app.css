@@ -115,7 +115,6 @@ body {
 a:hover,
 a:active {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
-  color: #6394d3 !important;
   transform: scale(1.2);
   transition: all 0.2s;
 }
@@ -304,7 +303,7 @@ body {
 
 .btn--white {
   background-color: #fff;
-  color: #777;
+  color: #777 !important;
 }
 
 .btn--white::after {
@@ -313,7 +312,7 @@ body {
 
 .btn--green {
   background-color: #3e618f;
-  color: #fff;
+  color: #fff !important;
 }
 
 .btn--green::after {
@@ -330,7 +329,7 @@ body {
 .btn-text:link,
 .btn-text:visited {
   border-bottom: 1px solid #3e618f;
-  color: #3e618f;
+  color: #3e618f !important;
   display: inline-block;
   font-size: 1.6rem;
   padding: 3px;
@@ -341,7 +340,7 @@ body {
 .btn-text:hover {
   background-color: #3e618f;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);
-  color: #fff;
+  color: #fff !important;
   transform: translateY(-2px);
 }
 

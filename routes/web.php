@@ -122,10 +122,5 @@ Route::get('home', 'HomeController@index')->name('home');
 
 Route::view('', 'landing-page')->name('landing-page');
 
-Route::view('galeria/criar', 'gallery.create')->name('create');
-
-Route::view('galeria/upload', 'gallery.upload')->name('upload');
-
-Route::post('upload', 'UploadController@upload')->name('uploadController');
-
 Route::resource('galerias', 'GalleryController')->names('galleries')->parameters(['galerias' => 'galleries']);
+

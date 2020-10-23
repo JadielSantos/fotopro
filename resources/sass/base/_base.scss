@@ -1,31 +1,30 @@
 *,
 *::after,
 *::before {
-	box-sizing: inherit;
-	margin: 0;
-	padding: 0;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 *::selection {
-	background-color: $color-primary;
-	color: white;
+  background-color: $color-primary;
+  color: white;
 }
 
 html {
-	// This defines what 1rem is
+  // This defines what 1rem is
   font-size: 62.5%;
-	//font-size: 75%;
+  //font-size: 75%;
 }
 
 body {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a {
   &:hover,
   &:active {
     box-shadow: 0 1rem 2rem rgba($color-black, .4);
-    color: $color-primary-light !important;
     transform: scale(1.2);
     transition: all .2s;
   }

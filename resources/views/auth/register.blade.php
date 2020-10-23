@@ -17,7 +17,7 @@
               <label for="name" class="form__label">{{ __('Nome Completo') }}</label>
 
               @error('name')
-                  <span class="paragraph invalid-message" role="alert">
+              <span class="paragraph invalid-message" role="alert">
                       <strong>{{ $message }}</strong>
                   </span>
               @enderror
@@ -28,7 +28,7 @@
               <label for="email" class="form__label">{{ __('E-Mail') }}</label>
 
               @error('email')
-                  <span class="paragraph invalid-message" role="alert">
+              <span class="paragraph invalid-message" role="alert">
                       <strong>{{ $message }}</strong>
                   </span>
               @enderror
@@ -40,7 +40,7 @@
               <label for="password" class="form__label">{{ __('Senha') }}</label>
 
               @error('password')
-                  <span class="paragraph invalid-message" role="alert">
+              <span class="paragraph invalid-message" role="alert">
                       <strong>{{ $message }}</strong>
                   </span>
               @enderror
@@ -53,7 +53,7 @@
 
             <div class="form__group u-text-center">
               <button type="submit" class="btn btn--green">
-                  {{ __('Enviar') }}
+                {{ __('Enviar') }}
               </button>
             </div>
           </form>

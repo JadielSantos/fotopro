@@ -1,15 +1,15 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
 class GalleryImage extends Model
 {
-    protected $table = 'galery_images';
-    public $timestamps = false;
+  protected $table = 'gallery_images';
+  public $timestamps = false;
 
-    public function Galery() {
-      return $this->belongsTo(Gallery::class, 'galery_id', 'id');
-    }
+  public function Gallery() {
+    return $this->belongsTo(Gallery::class, 'gallery_id', 'id');
+  }
 }

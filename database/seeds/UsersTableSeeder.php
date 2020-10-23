@@ -5,19 +5,19 @@ use Illuminate\Database\Seeder;
 
 class UsersTableSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
-    public function run()
-    {
-        User::create(
-          [
-            'name' => 'Jadiel dos Santos',
-            'email' => 'jadielsantosjds@gmail.com',
-            'password' => bcrypt('admin'),
-          ]
-        );
-    }
+  /**
+   * Run the database seeds.
+   *
+   * @return void
+   */
+  public function run()
+  {
+    User::create(
+      [
+        'name' => 'Jadiel dos Santos',
+        'email' => 'jadielsantosjds@gmail.com',
+        'password' => bcrypt('admin'),
+      ]
+    );
+  }
 }

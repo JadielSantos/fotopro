@@ -6,29 +6,29 @@ use Illuminate\Support\Facades\Schema;
 
 class CreateGalleryImagesTable extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        Schema::create('gallery_images', function (Blueprint $table) {
-            $table->id();
-            $table->unsignedBigInteger('gallery_id');
-            $table->string('path');
+  /**
+   * Run the migrations.
+   *
+   * @return void
+   */
+  public function up()
+  {
+    Schema::create('gallery_images', function (Blueprint $table) {
+      $table->id();
+      $table->unsignedBigInteger('gallery_id');
+      $table->string('path');
 
-            $table->foreign('gallery_id')->references('id')->on('galleries');
-        });
-    }
+      $table->foreign('gallery_id')->references('id')->on('galleries');
+    });
+  }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('gallery_images');
-    }
+  /**
+   * Reverse the migrations.
+   *
+   * @return void
+   */
+  public function down()
+  {
+    Schema::dropIfExists('gallery_images');
+  }
 }

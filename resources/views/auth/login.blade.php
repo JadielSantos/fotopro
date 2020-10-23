@@ -6,7 +6,7 @@
       <div class="sign-in-out__form">
         <div class="row">
           <form class="form" method="POST" action="{{ route('login') }}">
-              @csrf
+            @csrf
 
             <div class="form__group u-text-center">
               <h2 class="heading-secondary u-margin-bottom-medium">{{ __('Entrar') }}</h2>
@@ -17,7 +17,7 @@
               <label for="email" class="form__label">{{ __('E-Mail') }}</label>
 
               @error('email')
-                <span class="paragraph invalid-message" role="alert">
+              <span class="paragraph invalid-message" role="alert">
                   <strong>{{ $message }}</strong>
                 </span>
               @enderror
@@ -28,7 +28,7 @@
               <label for="password" class="form__label">{{ __('Senha') }}</label>
 
               @error('password')
-                <span class="paragraph invalid-message" role="alert">
+              <span class="paragraph invalid-message" role="alert">
                   <strong>{{ $message }}</strong>
                 </span>
               @enderror
