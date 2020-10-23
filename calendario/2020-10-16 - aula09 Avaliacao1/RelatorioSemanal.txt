@@ -1,16 +1,57 @@
 Relatório semanal
 
 
+2020-09-18 - aula05 desenvolvimento do projeto
+Relatar O QUE FOI FEITO:
+-Instalei o módulo theme-downloader;
+-Através deste módulo eu pude baixar uma Landing Page estilizada (bootstrap);
+-Setei vários arquivos base de estilização (scss) que utilizarei;
+-Compilei alguns destes arquivos, porém alguns estão dando erro, e as variáveis não estão compilando, assim terei que investigar melhor este modo de compilação (Laravel-mix).
+
+Relatar QUEM FOI O RESPONSÁVEL
+Jadiel dos Santos
+
 2020-09-25 - aula06 desenvolvimento do projeto
 Relatar O QUE FOI FEITO:
--
--
--
+-Feita conexão com banco de dados (utilizando docker);
+-Feita parte de registro e login;
+-Feitas páginas de login e registro;
+-Feita página "Landing Page" (index);
+-Instalado bootstrap.
 
 Relatar QUEM FOI O RESPONSÁVEL
--
--
--2020-10-02 - aula07 desenvolvimento do projeto
+-Jadiel dos Santos
+
+2020-10-02 - aula07 desenvolvimento do projeto
+Relatar O QUE FOI FEITO:
+-Feito backend para fazer upload de fotos
+-Tenho que corrigir algumas partes quando envio multiplas imagens
+-Feita nova landing page com a base do bootstrap
+
+Relatar QUEM FOI O RESPONSÁVEL
+-Jadiel dos Santos
+
+2020-10-09 - aula08 desenvolvimento do projeto
+Relatar O QUE FOI FEITO:
+-Modificações no tema
+-Mudei todos os scss
+-Alterada landing page
+-Arrumei a estrutura das views para utilizarem o mesmo layout
+-Padronização Laravel
+
+Relatar QUEM FOI O RESPONSÁVEL
+-Jadiel dos Santos
+
+2020-10-16 - aula09 Avaliacao1
+Relatar O QUE FOI FEITO:
+-Ajustada pagina de criacao de galeria.
+-Funcionando persistencia de imagens.
+-Envio de multiplas imagens.
+
+Relatar QUEM FOI O RESPONSÁVEL
+-Jadiel dos Santos
+
+2020-10-23 - aula10 desenvolvimento do projeto
 Relatar O QUE FOI FEITO:
 -
 -
@@ -19,7 +60,8 @@ Relatar O QUE FOI FEITO:
 Relatar QUEM FOI O RESPONSÁVEL
 -
 -
--2020-10-09 - aula08 desenvolvimento do projeto
+-
+2020-10-30 - aula11 desenvolvimento do projeto
 Relatar O QUE FOI FEITO:
 -
 -
@@ -28,7 +70,8 @@ Relatar O QUE FOI FEITO:
 Relatar QUEM FOI O RESPONSÁVEL
 -
 -
--2020-10-16 - aula09 Avaliacao1
+-
+2020-11-06 - aula12 desenvolvimento do projeto
 Relatar O QUE FOI FEITO:
 -
 -
@@ -37,7 +80,8 @@ Relatar O QUE FOI FEITO:
 Relatar QUEM FOI O RESPONSÁVEL
 -
 -
--2020-10-23 - aula10 desenvolvimento do projeto
+-
+2020-11-13 - aula13 Avaliacao2
 Relatar O QUE FOI FEITO:
 -
 -
@@ -46,7 +90,8 @@ Relatar O QUE FOI FEITO:
 Relatar QUEM FOI O RESPONSÁVEL
 -
 -
--2020-10-30 - aula11 desenvolvimento do projeto
+-
+2020-11-20 - aula14 desenvolvimento do projeto
 Relatar O QUE FOI FEITO:
 -
 -
@@ -55,33 +100,8 @@ Relatar O QUE FOI FEITO:
 Relatar QUEM FOI O RESPONSÁVEL
 -
 -
--2020-11-06 - aula12 desenvolvimento do projeto
-Relatar O QUE FOI FEITO:
 -
--
--
-
-Relatar QUEM FOI O RESPONSÁVEL
--
--
--2020-11-13 - aula13 Avaliacao2
-Relatar O QUE FOI FEITO:
--
--
--
-
-Relatar QUEM FOI O RESPONSÁVEL
--
--
--2020-11-20 - aula14 desenvolvimento do projeto
-Relatar O QUE FOI FEITO:
--
--
--
-
-Relatar QUEM FOI O RESPONSÁVEL
--
--
--2020-11-27 - aula15 Apresentação ao prof e produção video
+2020-11-27 - aula15 Apresentação ao prof e produção video
 Publicação do vídeo no repositório do GIT
-2020-12-04 - aula16 ApresentacaoFinal a turma
+
+2020-12-04 - aula16 ApresentacaoFinal a turma

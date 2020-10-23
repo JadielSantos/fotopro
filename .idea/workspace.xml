@@ -21,67 +21,14 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/dev" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1df82fd-840e-46b7-a669-8300a3121c0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/logged-in/tools/gallery/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GalleryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GalleryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UploadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UploadController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Customer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Gallery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/GalleryImage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/GalleryImage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_02_204200_create_customers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_02_204200_create_customers_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_02_204221_create_galleries_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_02_204221_create_galleries_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_02_205038_create_gallery_images_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_02_205038_create_gallery_images_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/icon-font.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/icon-font.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/site/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/site/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/site/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/site/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/icon-font.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/icon-font.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/abstract/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/abstract/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/base/_animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/base/_animations.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/base/_utils.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/base/_utils.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/components/_bg-video.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/_bg-video.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/components/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/components/_composition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/_composition.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/components/_feature-box.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/_feature-box.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/_form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/components/_story.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/_story.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/layout/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/layout/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/layout/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/layout/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/pages/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/pages/_workspace.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/pages/_workspace.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/gallery/create.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/gallery/upload.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/logged-in/tools/gallery.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/cta-register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/cta-register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/testimonials.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/testimonials.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calendario/2020-10-16 - aula09 Avaliacao1/RelatorioSemanal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/calendario/2020-10-16 - aula09 Avaliacao1/RelatorioSemanal.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,7 +268,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -333,10 +292,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1865" y="100" width="912" height="904" key="CommitChangelistDialog2/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1598653433972" />
-    <state x="1466" y="127" width="1720" height="853" key="DiffContextDialog" timestamp="1603496977755">
+    <state x="1466" y="127" width="1720" height="853" key="DiffContextDialog" timestamp="1603497295364">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1466" y="127" width="1720" height="853" key="DiffContextDialog/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1603496977755" />
+    <state x="1466" y="127" width="1720" height="853" key="DiffContextDialog/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1603497295364" />
     <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1597203987786">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
