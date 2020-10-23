@@ -1,0 +1,19 @@
+.section-sign-in-out {
+  background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+}
+
+.sign-in-out {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)),
+  url(/img/hero.jpg);
+  background-size: 100%;
+
+  &__form {
+    background-color: rgba(255,255,255, 0.7);
+    margin: 0 auto;
+    padding: 6rem;
+    width: 45%;
+  }
+}
