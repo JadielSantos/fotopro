@@ -13,33 +13,30 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::group(
-//  [
-//    'middleware' => [],
-//    'prefix' => 'usuario',
-//    'namespace' => 'User',
-//  ], function () {
-//  Route::name('user.')->group(function () {
-//    Route::get('/', 'UserController@home')->name('home');
-//
-//    Route::get('/fotos', 'UserController@photos')->name('photos');
-//
-//    Route::get('/contato', 'UserController@contacts')->name('contact');
-//
-//    Route::get('/sobre', 'UserController@about')->name('about');
-//
-//  });
-//});
+Route::view('/', 'index')->name('index');
 
-//Route::get('/', 'LandingPageController@landing_page')->name('landing-page');
-//
-//Route::get('/test', function () {
-//  return view('test');
-//})->name('test');
-//
-//Route::get('/login', function () {
-//  return 'Login';
-//})->name('login');
+Route::group(
+  [
+    'middleware' => [],
+    'prefix' => 'usuario',
+    'namespace' => 'User',
+  ], function () {
+  Route::name('user.')->group(function () {
+    Route::get('/', 'UserController@home')->name('home');
+
+    Route::get('/fotos', 'UserController@photos')->name('photos');
+
+    Route::get('/contato', 'UserController@contacts')->name('contact');
+
+    Route::get('/sobre', 'UserController@about')->name('about');
+
+  });
+});
+
+
+Route::get('/login', function () {
+  return 'Login';
+})->name('login');
 
 /*Examples:
 Route::get('/', function () {
@@ -115,11 +112,3 @@ Route::middleware([])->group(function () {
     });
   });
 });*/
-
-Auth::routes();
-
-Route::get('home', 'HomeController@index')->name('home');
-
-Route::view('', 'landing-page')->name('landing-page');
-
-Route::resource('galerias', 'GalleryController')->names('galleries')->parameters(['galerias' => 'galleries']);
