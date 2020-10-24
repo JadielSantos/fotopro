@@ -9,7 +9,11 @@ class Gallery extends Model
   protected $table = 'galleries';
   protected $connection = 'mysql';
 
-  public function Images() {
-    return $this->hasMany(GalleryImage::class);
+  protected $fillable = [
+    'title'
+  ];
+
+  public function setTitleAttribute($value) {
+    $this->attributes['title'] = $value;
   }
 }
