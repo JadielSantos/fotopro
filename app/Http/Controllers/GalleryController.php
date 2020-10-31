@@ -60,7 +60,6 @@ class GalleryController extends Controller
    */
   public function show(Gallery $gallery)
   {
-    dd($gallery);
     return view('logged-in.tools.gallery.show', [
       'gallery' => $gallery
     ]);

@@ -122,5 +122,8 @@ Route::get('home', 'HomeController@index')->name('home');
 
 Route::view('', 'landing-page')->name('landing-page');
 
-Route::resource('galerias', 'GalleryController')->names('galleries')->parameters(['galerias' => 'galleries']);
+Route::resource('galerias', 'GalleryController')->names('galleries')->parameters(['galerias' => 'gallery']);
 
+Route::get('/storage', function () {
+  Artisan::call('storage:link');
+});

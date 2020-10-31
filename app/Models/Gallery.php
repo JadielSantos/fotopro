@@ -16,4 +16,8 @@ class Gallery extends Model
   public function setTitleAttribute($value) {
     $this->attributes['title'] = $value;
   }
+
+  public function images() {
+    return $this->hasMany(GalleryImage::class, 'gallery_id', 'id');
+  }
 }

@@ -37266,6 +37266,14 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg"); // var imgText = document.getElementById("imgtext");
+
+  expandImg.src = imgs.src; // imgText.innerHTML = imgs.alt;
+
+  expandImg.parentElement.style.display = "block";
+}
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
