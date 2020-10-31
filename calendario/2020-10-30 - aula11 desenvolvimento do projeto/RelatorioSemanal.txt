@@ -61,14 +61,14 @@ Relatar QUEM FOI O RESPONSÁVEL
 
 2020-10-30 - aula11 desenvolvimento do projeto
 Relatar O QUE FOI FEITO:
--
--
--
+-Concertei a exibição unica de galeria, fazendo relacionamento entre as tabelas galleries e gallery_images.
+-Ajustado model de Gallery e GalleryImages.
+-Ajustada função em Gallery Resource para que mostre o objeto diretamente quando passado id por parametro no metodo show.
+-Adicionada metodo para que possa ser encontrado as galerias atraves de clientes.
 
 Relatar QUEM FOI O RESPONSÁVEL
--
--
--
+-Jadiel dos Santos
+
 2020-11-06 - aula12 desenvolvimento do projeto
 Relatar O QUE FOI FEITO:
 -
