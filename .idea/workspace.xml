@@ -28,11 +28,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b1df82fd-840e-46b7-a669-8300a3121c0e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Customer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Gallery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_02_204221_create_galleries_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_02_204221_create_galleries_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_02_205038_create_gallery_images_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_02_205038_create_gallery_images_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calendario/2020-11-06 - aula12 desenvolvimento do projeto/RelatorioSemanal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/calendario/2020-11-06 - aula12 desenvolvimento do projeto/RelatorioSemanal.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +261,7 @@
       <workItem from="1599570541503" duration="483000" />
       <workItem from="1603723512519" duration="48000" />
       <workItem from="1604093636941" duration="8765000" />
-      <workItem from="1604697245281" duration="11299000" />
+      <workItem from="1604697245281" duration="11540000" />
     </task>
     <servers />
   </component>
