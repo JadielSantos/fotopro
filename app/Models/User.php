@@ -9,7 +9,8 @@ use Illuminate\Notifications\Notifiable;
 class User extends Authenticatable
 {
     use Notifiable;
-//asasafaew
+
+    protected $table = 'users';
     /**
      *
      * @var array
@@ -35,4 +36,8 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function galleries() {
+      return $this->hasMany(Gallery::class, 'user_id', 'id');
+    }
 }

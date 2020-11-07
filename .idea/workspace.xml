@@ -27,7 +27,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1df82fd-840e-46b7-a669-8300a3121c0e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/calendario/2020-10-30 - aula11 desenvolvimento do projeto/RelatorioSemanal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/calendario/2020-10-30 - aula11 desenvolvimento do projeto/RelatorioSemanal.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Customer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_02_204221_create_galleries_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_02_204221_create_galleries_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_02_205038_create_gallery_images_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_02_205038_create_gallery_images_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +264,8 @@
       <workItem from="1599256332211" duration="1442000" />
       <workItem from="1599570541503" duration="483000" />
       <workItem from="1603723512519" duration="48000" />
-      <workItem from="1604093636941" duration="8713000" />
+      <workItem from="1604093636941" duration="8765000" />
+      <workItem from="1604697245281" duration="11299000" />
     </task>
     <servers />
   </component>
@@ -331,6 +337,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="0" y="156" width="539" height="612" key="git4idea.branch.GitSmartOperationDialog/1366.0.1920.1080/0.27.1366.741@0.27.1366.741" timestamp="1599266278025" />
+    <state x="1990" y="252" key="run.anything.popup" timestamp="1604707263167">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1990" y="252" key="run.anything.popup/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1604707263167" />
     <state x="1989" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1597286137124">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>

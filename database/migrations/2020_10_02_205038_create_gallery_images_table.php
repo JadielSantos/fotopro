@@ -17,6 +17,7 @@ class CreateGalleryImagesTable extends Migration
       $table->id();
       $table->unsignedBigInteger('gallery_id');
       $table->string('path');
+      $table->boolean('is_main');
 
       $table->foreign('gallery_id')->references('id')->on('galleries');
     });

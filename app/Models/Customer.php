@@ -9,6 +9,6 @@ class Customer extends Model
   protected $table = 'customers';
 
   public function galleries() {
-    return $this->hasMany(Gallery::class, 'customer_id', 'id');
+    return $this->belongsToMany(Gallery::class, 'galleries_customers', 'customer_id');
   }
 }
