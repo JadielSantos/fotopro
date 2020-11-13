@@ -6,7 +6,7 @@
 
     @foreach($gallery->images as $image)
       <div class="column">
-        <img src="{{ Storage::url($image->path) }} " onclick="myFunction(this);">
+        <img src="{{ Storage::url($image->path) }} " onclick="window.expand();">
       </div>
     @endforeach
     <div class="container">

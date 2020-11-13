@@ -37266,15 +37266,16 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
-function myFunction(imgs) {
-  var expandImg = document.getElementById("expandedImg"); // var imgText = document.getElementById("imgtext");
+window.expand = function (img) {
+  var expandImg = document.getElementById("expandedImg");
+  var img = $(this).find('img').attr('src'); // var imgText = document.getElementById("imgtext");
 
-  expandImg.src = imgs.src; // imgText.innerHTML = imgs.alt;
+  if (img) {
+    expandImg.src = img; // imgText.innerHTML = imgs.alt;
 
-  expandImg.parentElement.style.display = "block";
-}
-
-(function (document, window, index) {
+    expandImg.parentElement.style.display = "block";
+  }
+}(function (document, window, index) {
   var inputs = document.querySelectorAll('.form__input--file');
   Array.prototype.forEach.call(inputs, function (input) {
     var label = input.nextElementSibling,
@@ -37292,7 +37293,7 @@ function myFunction(imgs) {
       input.classList.remove('has-focus');
     });
   });
-})(document, window, 0);
+}(document, window, 0));
 
 /***/ }),
 

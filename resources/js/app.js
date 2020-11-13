@@ -1,11 +1,14 @@
 require('./bootstrap');
 
-function myFunction(imgs) {
+window.expand = function(img) {
   var expandImg = document.getElementById("expandedImg");
+  var img = $(this).find('img').attr('src');
   // var imgText = document.getElementById("imgtext");
-  expandImg.src = imgs.src;
-  // imgText.innerHTML = imgs.alt;
-  expandImg.parentElement.style.display = "block";
+  if (img) {
+    expandImg.src = img;
+    // imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+  }
 }
 
 ( function ( document, window, index )

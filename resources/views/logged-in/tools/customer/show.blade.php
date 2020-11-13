@@ -1,23 +1,9 @@
 @extends('logged-in.home')
 
 @section('tool')
-  <section class="section-gallery-item">
-    <h3 class="heading-tertiary">{{ $gallery->title }}</h3>
-
-    @foreach($gallery->images as $image)
-      <div class="column">
-        <img src="{{ Storage::url($image->path) }} " onclick="myFunction(this);">
-      </div>
-    @endforeach
-    <div class="container">
-      <!-- Close the image -->
-      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-
-      <!-- Expanded image -->
-      <img id="expandedImg" style="width:100%">
-
-      <!-- Image text -->
-      <div id="imgtext"></div>
-    </div>
+  <section class="section-customer-item">
+    <h3 class="heading-tertiary">{{ $customer->name }}</h3>
+    <h3 class="heading-tertiary">{{ $customer->email }}</h3>
+    <h3 class="heading-tertiary">{{ $customer->phone_number }}</h3>
   </section>
 @endsection

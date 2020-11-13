@@ -15,7 +15,10 @@ class CustomerController extends Controller
      */
     public function index()
     {
-      return view('logged-in.tools.customer.index');
+      $customers = Customer::where('user_id', 'like', ''.Auth::user()->id.'')->get();
+      return view('logged-in.tools.customer.index', [
+        'customers' => $customers
+      ]);
     }
 
     /**
@@ -42,6 +45,8 @@ class CustomerController extends Controller
       $customer->phone_number = $request->phone_number;
       $customer->user_id = Auth::user()->id;
       $customer->save();
+
+      return redirect('clientes/'.$customer->id);
     }
 
     /**
@@ -50,9 +55,11 @@ class CustomerController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Customer $customer)
     {
-        //
+      return view('logged-in.tools.customer.show', [
+        'customer' => $customer
+      ]);
     }
 
     /**

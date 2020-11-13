@@ -18,7 +18,10 @@ class GalleryController extends Controller
    */
   public function index()
   {
-    return view('logged-in.tools.gallery.index');
+    $galleries = Gallery::where('user_id', 'like', ''.Auth::user()->id.'')->get();
+    return view('logged-in.tools.gallery.index', [
+    'galleries' => $galleries
+    ]);
   }
 
   /**
@@ -72,6 +75,8 @@ class GalleryController extends Controller
       $gallery_customer->save();
       unset($gallery_customer);
     }
+
+    return redirect('galerias/'.$gallery->id);
   }
 
   /**
