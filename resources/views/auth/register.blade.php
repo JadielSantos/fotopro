@@ -8,7 +8,7 @@
           <form class="form" method="POST" action="{{ route('register') }}">
             @csrf
 
-            <div class="form__group u-text-center">
+            <div class="form__group u-center-text">
               <h2 class="heading-secondary u-margin-bottom-medium">{{ __('Registre-se!') }}</h2>
             </div>
 
@@ -51,7 +51,7 @@
               <label for="password-confirm" class="form__label">{{ __('Confirme a senha') }}</label>
             </div>
 
-            <div class="form__group u-text-center">
+            <div class="form__group u-center-text">
               <button type="submit" class="btn btn--green">
                 {{ __('Enviar') }}
               </button>

@@ -2,10 +2,10 @@
 
 @section('content')
   <section class="section-home">
-    <div class="flex">
+    <div class="flex" style="height: 90vh;">
       <div class="flex__row flex__row-up">
 
-        <div class="flex__row--item-left user-info u-text-center">
+        <div class="flex__row--item-left user-info u-center-text">
           <img src="{{ asset('/img/profile.png') }}" alt="User photo" style="height: 50px; margin-right: 1rem">
           <div>
             <h3 class="heading-tertiary">{{ Auth::user()->name }}</h3>

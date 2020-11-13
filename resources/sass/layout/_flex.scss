@@ -1,7 +1,6 @@
 .flex {
   display: flex;
   flex-wrap: wrap;
-  height: 90vh;
 
   &__row {
     display: flex;
@@ -11,7 +10,7 @@
 
     &--item {
       &-left {
-        border-right: 2px solid black;
+        border-right: 2px solid $color-black;
         flex-basis: 30%;
         padding: 2rem;
       }
@@ -24,7 +23,7 @@
   }
 
   &__row-up {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid $color-black;
     height: 15% !important;
   }
 }

@@ -4,4 +4,14 @@
 
 .section-gallery {
 
+  .form {
+
+    &__input {
+      width: 100%;
+    }
+
+    &__label {
+      margin-left: 0;
+    }
+  }
 }
