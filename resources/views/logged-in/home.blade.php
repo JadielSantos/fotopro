@@ -2,7 +2,7 @@
 
 @section('content')
   <section class="section-home">
-    <div class="flex" style="height: 90vh;">
+    <div class="flex">
       <div class="flex__row flex__row-up">
 
         <div class="flex__row--item-left user-info u-center-text">
@@ -30,7 +30,7 @@
         <div class="flex__row--item-left side-menu-container">
           <ul class="side-menu">
             <li class="heading-tertiary u-margin-bottom-small"><a href="{{ route('galleries.index') }}">{{ __("Seleção de Fotos") }}</a></li>
-            <li class="heading-tertiary u-margin-bottom-small"><a href="{{ route('home') }}">{{ __("Clientes") }}</a></li>
+            <li class="heading-tertiary u-margin-bottom-small"><a href="{{ route('customers.index') }}">{{ __("Clientes") }}</a></li>
             <li class="heading-tertiary u-margin-bottom-small"><a href="{{ route('home') }}">{{ __("Pagamentos") }}</a></li>
             <li class="heading-tertiary u-margin-bottom-small"><a href="{{ route('home') }}">{{ __("Suporte") }}</a></li>
           </ul>

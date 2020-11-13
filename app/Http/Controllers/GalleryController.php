@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Customer;
 use App\Models\Gallery;
+use App\Models\GalleryCustomer;
 use App\Models\GalleryImage;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -39,6 +41,15 @@ class GalleryController extends Controller
   {
     $gallery = new Gallery();
     $gallery->title = $request->title;
+    $gallery->deadline = $request->deadline;
+    $gallery->image_size = $request->image_size;
+    $gallery->allow_copy = $request->allow_copy;
+    $gallery->use_water_mark = $request->use_water_mark;
+    $gallery->allow_individual_comment = $request->allow_individual_comment;
+    $gallery->allow_black_white = $request->allow_black_white;
+    $gallery->password = $request->password;
+    $gallery->is_public = $request->is_public;
+    $gallery->user_id = Auth::user()->id;
     $gallery->save();
 
     for ($i = 0; $i < count($request->allFiles()['images']); $i++) {
@@ -46,9 +57,20 @@ class GalleryController extends Controller
 
       $gallery_image = new GalleryImage();
       $gallery_image->gallery_id = $gallery->id;
+      $gallery_image->is_main = 0;
       $gallery_image->path = $file->store('galerias/imagens/' . Auth::user()->id . '/' . $gallery->id);
       $gallery_image->save();
       unset($gallery_image);
+    }
+
+    for ($i = 0; $i < count($request->customers); $i++) {
+      $customer = Customer::where('name', 'like', '%'.$request->customers[$i].'%');
+
+      $gallery_customer = new GalleryCustomer();
+      $gallery_customer->gallery_id = $gallery->id;
+      $gallery_customer->customer_id = $customer->id;
+      $gallery_customer->save();
+      unset($gallery_customer);
     }
   }
 

@@ -77,8 +77,26 @@
         </label>
       </div>
 
+      <div class="form__group u-flex-basis-100">
+        <input id="password" type="password" class="form__input" name="password" placeholder="Senha" value="{{ old('password') }}" required autofocus>
+        <label for="password" class="form__label">{{ __('Senha') }}</label>
+      </div>
+
+      <div class="form__group">
+        <label for="is_public" class="form__label">{{ __('Galeria pública?') }}</label>
+        <select id="is_public" class="form__select" name="is_public" value="{{ old('is_public') }}" required>
+          <option value="1">Sim</option>
+          <option value="0">Não</option>
+        </select>
+      </div>
+
+      <div class="form__group u-flex-basis-100">
+        <input id="customers" type="text" class="form__input" name="customers[]" placeholder="Clientes" value="{{ old('customers') }}" required autofocus>
+        <label for="customers" class="form__label">{{ __('Clientes') }}</label>
+      </div>
+
       <div class="form__group u-center-text">
-        <button class="btn btn--green" type="submit">Enviar Imagens</button>
+        <button class="btn btn--green" type="submit">Criar Galeria</button>
       </div>
     </form>
   </section>
