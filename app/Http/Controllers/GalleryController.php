@@ -64,7 +64,7 @@ class GalleryController extends Controller
     }
 
     for ($i = 0; $i < count($request->customers); $i++) {
-      $customer = Customer::where('name', 'like', '%'.$request->customers[$i].'%');
+      $customer = Customer::where('name', 'like', '%'.$request->customers[$i].'%')->first();
 
       $gallery_customer = new GalleryCustomer();
       $gallery_customer->gallery_id = $gallery->id;

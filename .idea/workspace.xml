@@ -29,10 +29,6 @@
     <list default="true" id="b1df82fd-840e-46b7-a669-8300a3121c0e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GalleryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GalleryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_02_204200_create_customers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_02_204200_create_customers_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/logged-in/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/logged-in/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/logged-in/tools/gallery/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/logged-in/tools/gallery/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,7 +271,7 @@
       <workItem from="1605150101310" duration="5420000" />
       <workItem from="1605221611961" duration="2163000" />
       <workItem from="1605228913759" duration="26000" />
-      <workItem from="1605229102036" duration="12711000" />
+      <workItem from="1605229102036" duration="13968000" />
     </task>
     <servers />
   </component>
