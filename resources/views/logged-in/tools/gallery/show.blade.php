@@ -3,9 +3,10 @@
 @section('tool')
   <section class="section-gallery-item">
     <h3 class="heading-tertiary">{{ $gallery->title }}</h3>
+    <h3 class="heading-tertiary">{{ $gallery->password }}</h3>
 
     @foreach($gallery->images as $image)
-      <div class="column">
+      <div class="field__item">
         <img src="{{ Storage::url($image->path) }} " onclick="window.expand();">
       </div>
     @endforeach

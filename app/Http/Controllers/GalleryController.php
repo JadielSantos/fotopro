@@ -8,6 +8,9 @@ use App\Models\GalleryCustomer;
 use App\Models\GalleryImage;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use ImageOptimizer;
+use Image;
+use Illuminate\Support\Facades\Storage;
 
 class GalleryController extends Controller
 {
@@ -55,14 +58,25 @@ class GalleryController extends Controller
     $gallery->user_id = Auth::user()->id;
     $gallery->save();
 
+    Storage::disk('local')->makeDirectory('public/galerias/imagens/' . Auth::user()->id . '/' . $gallery->id);
+    $path = 'galerias/imagens/' . Auth::user()->id . '/' . $gallery->id;
+
     for ($i = 0; $i < count($request->allFiles()['images']); $i++) {
       $file = $request->allFiles()['images'][$i];
 
       $gallery_image = new GalleryImage();
       $gallery_image->gallery_id = $gallery->id;
       $gallery_image->is_main = 0;
-      $gallery_image->path = $file->store('galerias/imagens/' . Auth::user()->id . '/' . $gallery->id);
+      $gallery_image->path = $path . '/' . $file->hashName();
       $gallery_image->save();
+
+      if ($gallery->image_size == '800x600') {
+        Image::make($file->getRealPath())->resize(800, 600)->save('storage/' . $gallery_image->path);
+      } else {
+        Image::make($file->getRealPath())->resize(1024, 768)->save('storage/' . $gallery_image->path);
+      }
+
+      ImageOptimizer::optimize('storage/' . $gallery_image->path);
       unset($gallery_image);
     }
 

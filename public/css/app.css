@@ -1125,23 +1125,23 @@ input[type=file] + .form__label svg {
 
 /* The grid: Four equal columns that floats next to each other */
 
-.column {
+.field__item {
   float: left;
+  margin: 10px;
+  overflow: hidden;
   width: 25%;
-  padding: 10px;
 }
 
-/* Style the images inside the grid */
-
-.column img {
-  opacity: 0.8;
+.field__item img {
   cursor: pointer;
   height: 100%;
+  transform: scale(1);
+  transition: all 1.5s ease-out;
   width: 100%;
 }
 
-.column img:hover {
-  opacity: 1;
+.field__item img:hover {
+  transform: scale(1.2);
 }
 
 /* Clear floats after the columns */
