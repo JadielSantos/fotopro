@@ -21,10 +21,12 @@ class GalleryController extends Controller
    */
   public function index()
   {
-    $galleries = Gallery::where('user_id', 'like', ''.Auth::user()->id.'')->get();
-    return view('logged-in.tools.gallery.index', [
-    'galleries' => $galleries
-    ]);
+    if (!Auth::guest()) {
+      $galleries = Gallery::where('user_id', 'like', '' . Auth::user()->id . '')->get();
+      return view('logged-in.tools.gallery.index', [
+        'galleries' => $galleries
+      ]);
+    }
   }
 
   /**
@@ -34,7 +36,9 @@ class GalleryController extends Controller
    */
   public function create()
   {
-    return view('logged-in.tools.gallery.create');
+    if (!Auth::guest()) {
+      return view('logged-in.tools.gallery.create');
+    }
   }
 
   /**
@@ -45,49 +49,51 @@ class GalleryController extends Controller
    */
   public function store(Request $request)
   {
-    $gallery = new Gallery();
-    $gallery->title = $request->title;
-    $gallery->deadline = $request->deadline;
-    $gallery->image_size = $request->image_size;
-    $gallery->allow_copy = $request->allow_copy;
-    $gallery->use_water_mark = $request->use_water_mark;
-    $gallery->allow_individual_comment = $request->allow_individual_comment;
-    $gallery->allow_black_white = $request->allow_black_white;
-    $gallery->password = $request->password;
-    $gallery->is_public = $request->is_public;
-    $gallery->user_id = Auth::user()->id;
-    $gallery->save();
+    if (!Auth::guest()) {
+      $gallery = new Gallery();
+      $gallery->title = $request->title;
+      $gallery->deadline = $request->deadline;
+      $gallery->image_size = $request->image_size;
+      $gallery->allow_copy = $request->allow_copy;
+      $gallery->use_water_mark = $request->use_water_mark;
+      $gallery->allow_individual_comment = $request->allow_individual_comment;
+      $gallery->allow_black_white = $request->allow_black_white;
+      $gallery->password = $request->password;
+      $gallery->is_public = $request->is_public;
+      $gallery->user_id = Auth::user()->id;
+      $gallery->save();
 
-    Storage::disk('local')->makeDirectory('public/galerias/imagens/' . Auth::user()->id . '/' . $gallery->id);
-    $path = 'galerias/imagens/' . Auth::user()->id . '/' . $gallery->id;
+      Storage::disk('local')->makeDirectory('public/galerias/imagens/' . Auth::user()->id . '/' . $gallery->id);
+      $path = 'galerias/imagens/' . Auth::user()->id . '/' . $gallery->id;
 
-    for ($i = 0; $i < count($request->allFiles()['images']); $i++) {
-      $file = $request->allFiles()['images'][$i];
+      for ($i = 0; $i < count($request->allFiles()['images']); $i++) {
+        $file = $request->allFiles()['images'][$i];
 
-      $gallery_image = new GalleryImage();
-      $gallery_image->gallery_id = $gallery->id;
-      $gallery_image->is_main = 0;
-      $gallery_image->path = $path . '/' . $file->hashName();
-      $gallery_image->save();
+        $gallery_image = new GalleryImage();
+        $gallery_image->gallery_id = $gallery->id;
+        $gallery_image->is_main = 0;
+        $gallery_image->path = $path . '/' . $file->hashName();
+        $gallery_image->save();
 
-      if ($gallery->image_size == '800x600') {
-        Image::make($file->getRealPath())->resize(800, 600)->save('storage/' . $gallery_image->path);
-      } else {
-        Image::make($file->getRealPath())->resize(1024, 768)->save('storage/' . $gallery_image->path);
+        if ($gallery->image_size == '800x600') {
+          Image::make($file->getRealPath())->resize(800, 600)->save('storage/' . $gallery_image->path);
+        } else {
+          Image::make($file->getRealPath())->resize(1024, 768)->save('storage/' . $gallery_image->path);
+        }
+
+        ImageOptimizer::optimize('storage/' . $gallery_image->path);
+        unset($gallery_image);
       }
 
-      ImageOptimizer::optimize('storage/' . $gallery_image->path);
-      unset($gallery_image);
-    }
+      for ($i = 0; $i < count($request->customers); $i++) {
+        $customer = Customer::where('name', 'like', '%' . $request->customers[$i] . '%')->first();
 
-    for ($i = 0; $i < count($request->customers); $i++) {
-      $customer = Customer::where('name', 'like', '%'.$request->customers[$i].'%')->first();
-
-      $gallery_customer = new GalleryCustomer();
-      $gallery_customer->gallery_id = $gallery->id;
-      $gallery_customer->customer_id = $customer->id;
-      $gallery_customer->save();
-      unset($gallery_customer);
+        $gallery_customer = new GalleryCustomer();
+        $gallery_customer->gallery_id = $gallery->id;
+        $gallery_customer->customer_id = $customer->id;
+        $gallery_customer->save();
+        unset($gallery_customer);
+      }
     }
 
     return redirect('galerias/'.$gallery->id);
@@ -101,9 +107,17 @@ class GalleryController extends Controller
    */
   public function show(Gallery $gallery)
   {
-    return view('logged-in.tools.gallery.show', [
-      'gallery' => $gallery
-    ]);
+    if (!Auth::guest()) {
+      if ($gallery->user_id == Auth::user()->id) {
+        return view('logged-in.tools.gallery.show', [
+          'gallery' => $gallery
+        ]);
+      }
+    } else {
+      return view('customer.gallery.show', [
+        'gallery' => $gallery
+      ]);
+    }
   }
 
   /**

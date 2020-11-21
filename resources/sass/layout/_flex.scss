@@ -1,6 +1,8 @@
 .flex {
   display: flex;
   flex-wrap: wrap;
+  max-height: 90vh;
+  overflow: auto;
 
   &__row {
     display: flex;

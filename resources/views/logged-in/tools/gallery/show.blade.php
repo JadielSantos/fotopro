@@ -5,11 +5,13 @@
     <h3 class="heading-tertiary">{{ $gallery->title }}</h3>
     <h3 class="heading-tertiary">{{ $gallery->password }}</h3>
 
-    @foreach($gallery->images as $image)
-      <div class="field__item">
-        <img src="{{ Storage::url($image->path) }} " onclick="window.expand();">
-      </div>
-    @endforeach
+    <div>
+      @foreach($gallery->images as $image)
+        <div class="field__item">
+          <img src="{{ Storage::url($image->path) }} " onclick="window.expand();">
+        </div>
+      @endforeach
+    </div>
     <div class="container">
       <!-- Close the image -->
       <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
