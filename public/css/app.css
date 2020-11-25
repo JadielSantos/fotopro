@@ -1140,6 +1140,11 @@ input[type=file] + .form__label svg {
   width: 80%;
 }
 
+.img--container {
+  display: block;
+  overflow: hidden;
+}
+
 .field__item {
   float: left;
   margin: 10px;

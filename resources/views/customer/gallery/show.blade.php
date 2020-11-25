@@ -8,8 +8,10 @@
       <div class="field__customer--container">
         @foreach($gallery->images as $image)
           <div class="field__item">
-            <input type="checkbox">
-            <img src="{{ Storage::url($image->path) }} " onclick="window.expand();">
+            <input id="checkbox_{{ $image->id }}" type="checkbox" name="checkbox_{{ $image->id }}">
+            <label class="img--container" for="checkbox_{{ $image->id }}">
+              <img src="{{ Storage::url($image->path) }} " onclick="window.expand();">
+            </label>
           </div>
         @endforeach
       </div>
