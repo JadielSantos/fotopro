@@ -114,7 +114,7 @@ class GalleryController extends Controller
         ]);
       }
     } else {
-      return view('customer.gallery.show', [
+      return view('customer.gallery.password', [
         'gallery' => $gallery
       ]);
     }
@@ -152,5 +152,27 @@ class GalleryController extends Controller
   public function destroy($id)
   {
     //
+  }
+
+  /**
+   * Store a newly created resource in storage.
+   *
+   * @param  \Illuminate\Http\Request  $request
+   * @return \Illuminate\Http\Response
+   */
+  public function password(Request $request)
+  {
+    $password = $request->password;
+    $gallery = Gallery::where('id', 'like', '%' . $request->gallery_id . '%')->first();
+
+    if ($password == $gallery->password) {
+      return view('customer.gallery.show', [
+        'gallery' => $gallery
+      ]);
+    } else {
+      return view('customer.gallery.password', [
+        'gallery' => $gallery
+      ]);
+    }
   }
 }
