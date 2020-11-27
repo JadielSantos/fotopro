@@ -95,6 +95,11 @@
         <label for="customers" class="form__label">{{ __('Clientes') }}</label>
       </div>
 
+      <div class="form__group u-flex-basis-50">
+        <input id="unit_price" type="text" class="form__input" name="unit_price" placeholder="Preço por foto" value="{{ old('unit_price') }}" required autofocus>
+        <label for="unit_price" class="form__label">{{ __('Preço por foto') }}</label>
+      </div>
+
       <div class="form__group u-center-text">
         <button class="btn btn--green" type="submit">Criar Galeria</button>
       </div>

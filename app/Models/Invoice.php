@@ -2,15 +2,15 @@
 
 namespace App\Models;
 
+use App\Models\ImageSelection;
 use Illuminate\Database\Eloquent\Model;
 
-class GalleryCustomer extends Model
+class Invoice extends Model
 {
-  protected $table = 'galleries_customers';
-  public $timestamps = false;
+  protected $table = 'invoices';
 
   public function gallery() {
-    return $this->belongsTo(Gallery::class, 'gallery_id', 'id');
+    return $this->hasMany(ImageSelection::class, 'invoice_id', 'id')->first()->gallery();
   }
 
   public function customer() {

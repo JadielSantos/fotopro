@@ -198,6 +198,10 @@ body {
   color: #961d1d !important;
 }
 
+.reais:before {
+  content: "R$";
+}
+
 .u-center-text {
   text-align: center !important;
 }
@@ -240,6 +244,7 @@ body {
 
 .u-flex-basis-50 {
   flex-basis: 50% !important;
+  width: 50%;
 }
 
 .bg-video {
@@ -1129,7 +1134,6 @@ input[type=file] + .form__label svg {
 
 .section-customer-gallery-item {
   margin: 40px 0 60px;
-  overflow: auto;
   text-align: center;
 }
 

@@ -62,3 +62,7 @@ body {
 .invalid-message {
   color: $color-red-dark !important;
 }
+
+.reais:before {
+  content: "R$";
+}

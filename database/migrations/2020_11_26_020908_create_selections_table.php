@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateGalleriesCustomersTable extends Migration
+class CreateSelectionsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,15 +13,14 @@ class CreateGalleriesCustomersTable extends Migration
      */
     public function up()
     {
-        Schema::create('galleries_customers', function (Blueprint $table) {
+        Schema::create('selections', function (Blueprint $table) {
           $table->id();
-          $table->unsignedBigInteger('gallery_id');
           $table->unsignedBigInteger('customer_id');
-          $table->double('unit_price');
+          $table->unsignedBigInteger('invoice_id');
           $table->timestamps();
 
-          $table->foreign('gallery_id')->references('id')->on('galleries');
           $table->foreign('customer_id')->references('id')->on('customers');
+          $table->foreign('invoice_id')->references('id')->on('invoices');
         });
     }
 
@@ -32,6 +31,6 @@ class CreateGalleriesCustomersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('galleries_customers');
+        Schema::dropIfExists('selections');
     }
 }

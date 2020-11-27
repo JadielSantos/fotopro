@@ -120,10 +120,11 @@ Auth::routes();
 
 Route::get('home', 'HomeController@index')->name('home');
 
-Route::view('', 'landing-page')->name('landing-page');
+Route::view('', 'landing-page')->name('landing_page');
 
 Route::resource('galerias', 'GalleryController')->names('galleries')->parameters(['galerias' => 'gallery']);
 Route::post('galerias/selecao', 'GalleryController@password')->name('galleries.password');
+Route::post('galerias/selecao/enviar', 'GalleryController@submit_selection')->name('galleries.submit_selection');
 
 Route::resource('clientes', 'CustomerController')->names('customers')->parameters(['clientes' => 'customer']);
 

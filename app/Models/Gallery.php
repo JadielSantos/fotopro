@@ -28,4 +28,12 @@ class Gallery extends Model
   public function customers() {
     return $this->belongsToMany(Gallery::class, 'galleries_customers', 'gallery_id');
   }
+
+  public function first_customer() {
+    return $this->belongsToMany(Gallery::class, 'galleries_customers', 'gallery_id')->first();
+  }
+
+  public function unit_price(int $customer_id) {
+    return GalleryCustomer::where('gallery_id', 'like', '%' . $this->id . '%')->where('customer_id', 'like', '%' . $customer_id . '%')->first()->unit_price;
+  }
 }

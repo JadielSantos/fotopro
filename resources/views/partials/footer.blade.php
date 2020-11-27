@@ -15,7 +15,7 @@
     </div>
     <div class="col-1-of-2">
       <p class="footer__copyright">
-        Design feito por <a href="" class="footer__link">Jadiel dos Santos</a>. Copyright &copy; by Jonas Schmedtmann.
+        Design feito por <a href="" class="footer__link">Jadiel dos Santos</a>. Copyright &copy; Fotopro.
       </p>
     </div>
   </div>

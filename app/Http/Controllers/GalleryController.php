@@ -6,6 +6,9 @@ use App\Models\Customer;
 use App\Models\Gallery;
 use App\Models\GalleryCustomer;
 use App\Models\GalleryImage;
+use App\Models\ImageSelection;
+use App\Models\Invoice;
+use App\Models\Selection;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use ImageOptimizer;
@@ -91,6 +94,7 @@ class GalleryController extends Controller
         $gallery_customer = new GalleryCustomer();
         $gallery_customer->gallery_id = $gallery->id;
         $gallery_customer->customer_id = $customer->id;
+        $gallery_customer->unit_price = $request->unit_price;
         $gallery_customer->save();
         unset($gallery_customer);
       }
@@ -174,5 +178,40 @@ class GalleryController extends Controller
         'gallery' => $gallery
       ]);
     }
+  }
+
+  /**
+   * Store a newly created resource in storage.
+   *
+   * @param  \Illuminate\Http\Request  $request
+   * @return \Illuminate\Http\Response
+   */
+  public function submit_selection(Request $request)
+  {
+    $gallery = Gallery::where('id', '=', $request->gallery_id)->first();
+
+    $invoice = new Invoice();
+    $invoice->status = 'Pendente';
+    $invoice->total_price = $request->unit_price * count($request->images);
+    $invoice->total_paid = 0;
+    $invoice->save();
+
+    $selection = new Selection();
+    $selection->customer_id = $gallery->first_customer()->id;
+    $selection->invoice_id = $invoice->id;
+    $selection->save();
+
+    for ($i = 0; $i < count($request->images); $i++) {
+      $image_id = $request->images[$i];
+
+      $image_selection = new ImageSelection();
+      $image_selection->gallery_image_id = $image_id;
+      $image_selection->selection_id = $selection->id;
+      $image_selection->save();
+
+      unset($image_selection);
+    }
+
+    return redirect('galerias/' . $request->gallery_id);
   }
 }
