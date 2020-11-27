@@ -9,6 +9,6 @@ class GalleryImage extends Model
   protected $table = 'gallery_images';
 
   public function gallery() {
-    return $this->belongsTo(Gallery::class, 'gallery_id', 'id');
+    return Gallery::where('id', 'like', '%' . $this->gallery_id .'%')->first();
   }
 }

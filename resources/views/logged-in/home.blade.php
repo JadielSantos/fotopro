@@ -31,7 +31,7 @@
           <ul class="side-menu">
             <li class="heading-tertiary u-margin-bottom-small"><a href="{{ route('galleries.index') }}">{{ __("Seleção de Fotos") }}</a></li>
             <li class="heading-tertiary u-margin-bottom-small"><a href="{{ route('customers.index') }}">{{ __("Clientes") }}</a></li>
-            <li class="heading-tertiary u-margin-bottom-small"><a href="{{ route('home') }}">{{ __("Pagamentos") }}</a></li>
+            <li class="heading-tertiary u-margin-bottom-small"><a href="{{ route('invoices.index') }}">{{ __("Pagamentos") }}</a></li>
             <li class="heading-tertiary u-margin-bottom-small"><a href="{{ route('home') }}">{{ __("Suporte") }}</a></li>
           </ul>
         </div>

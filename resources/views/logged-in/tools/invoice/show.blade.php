@@ -1,7 +1,7 @@
-@extends('layouts.app')
+@extends('logged-in.home')
 
-@section('content')
-  <section class="" style="max-width: 500px; margin: 3rem auto">
+@section('tool')
+  <section class="">
     <div class="form__group" style="margin-right: 3rem">
       <label class="">Status</label>
       <h3 class="heading-tertiary">{{ $invoice->customer->name }}</h3>

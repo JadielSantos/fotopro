@@ -128,6 +128,8 @@ Route::post('galerias/selecao/enviar', 'GalleryController@submit_selection')->na
 
 Route::resource('clientes', 'CustomerController')->names('customers')->parameters(['clientes' => 'customer']);
 
+Route::resource('pagamentos', 'InvoiceController')->names('invoices')->parameters(['pagamentos' => 'invoice']);
+
 Route::get('/storage', function () {
   Artisan::call('storage:link');
 });

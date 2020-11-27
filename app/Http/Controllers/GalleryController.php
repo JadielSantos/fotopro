@@ -212,6 +212,8 @@ class GalleryController extends Controller
       unset($image_selection);
     }
 
-    return redirect('galerias/' . $request->gallery_id);
+    session(['access_invoice' => true]);
+
+    return redirect('pagamentos/' . $invoice->id);
   }
 }

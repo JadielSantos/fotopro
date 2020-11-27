@@ -25,6 +25,10 @@ class Gallery extends Model
     return $this->hasMany(GalleryImage::class, 'gallery_id', 'id');
   }
 
+  public function user() {
+    return User::where('id', 'like', '%' .  $this->user_id . '%')->first();
+  }
+
   public function customers() {
     return $this->belongsToMany(Gallery::class, 'galleries_customers', 'gallery_id');
   }
