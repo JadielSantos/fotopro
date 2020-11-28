@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Invoice;
+use App\Models\Selection;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
-class InvoiceController extends Controller
+class SelectionController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,19 +15,7 @@ class InvoiceController extends Controller
      */
     public function index()
     {
-      if (!Auth::guest()) {
-        $invoices_aux = Invoice::get();
-        $invoices = [];
-        foreach ($invoices_aux as $invoice) {
-          if ($invoice->user()->id == Auth::user()->id) {
-            $invoice->customer = $invoice->customer();
-            array_push($invoices, $invoice);
-          }
-        }
-        return view('logged-in.tools.invoice.index', [
-          'invoices' => $invoices
-        ]);
-      }
+        //
     }
 
     /**
@@ -57,13 +45,16 @@ class InvoiceController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Invoice $invoice)
+    public function show(Selection $selection)
     {
-      if (!Auth::guest()) {
+      if (Auth::guest() and session('access_invoice')) {
         session(['access_invoice' => false]);
-        $invoice->customer = $invoice->customer();
-        return view('customer.invoice.show', [
-          'invoice' => $invoice
+        return view('customer.selection.show', [
+          'selection' => $selection
+        ]);
+      } elseif (!Auth::guest()) {
+        return view('logged-in.tools.selection.show', [
+          'selection' => $selection
         ]);
       } else {
         return view('auth.login');

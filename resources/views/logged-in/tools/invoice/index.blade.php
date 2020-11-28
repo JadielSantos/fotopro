@@ -4,10 +4,10 @@
   <section class="section-gallery">
     <div style="display: flex; flex-wrap: wrap">
       @foreach($invoices as $invoice)
-        <a href="pagamentos/{{ $invoice->id }}" class="u-flex-basis-100">
+        <a href="selecoes/{{ $invoice->selection() }}" class="link-item u-flex-basis-100">
           <div style="display: flex">
             <div class="form__group" style="margin-right: 3rem">
-              <label class="form__label">Status</label>
+              <label class="form__label">Cliente</label>
               <h3 class="heading-tertiary">{{ $invoice->customer->name }}</h3>
             </div>
             <div class="form__group" style="margin-right: 3rem">

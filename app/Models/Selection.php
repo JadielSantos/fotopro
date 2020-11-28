@@ -15,4 +15,12 @@ class Selection extends Model
   public function customer() {
     return $this->belongsTo(Customer::class, 'customer_id', 'id')->first();
   }
+
+  public function invoice() {
+    return $this->belongsTo(Invoice::class, 'invoice_id', 'id')->first();
+  }
+
+  public function images() {
+    return $this->hasMany(ImageSelection::class, 'selection_id', 'id');
+  }
 }

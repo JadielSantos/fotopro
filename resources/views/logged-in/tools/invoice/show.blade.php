@@ -3,7 +3,7 @@
 @section('tool')
   <section class="">
     <div class="form__group" style="margin-right: 3rem">
-      <label class="">Status</label>
+      <label class="">Cliente</label>
       <h3 class="heading-tertiary">{{ $invoice->customer->name }}</h3>
     </div>
     <div class="form__group" style="margin-right: 3rem">

@@ -28,13 +28,22 @@
     <list default="true" id="b1df82fd-840e-46b7-a669-8300a3121c0e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GalleryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GalleryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Gallery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/GalleryImage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/GalleryImage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/InvoiceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/InvoiceController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/ImageSelection.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/ImageSelection.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Invoice.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Invoice.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Selection.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Selection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calendario/2020-11-27 - aula15 Apresentacao ao prof e producao video/RelatorioSemanal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/calendario/2020-11-27 - aula15 Apresentacao ao prof e producao video/RelatorioSemanal.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/abstract/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/abstract/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/base/_base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/customer/invoice/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/customer/invoice/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/logged-in/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/logged-in/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/logged-in/tools/customer/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/logged-in/tools/customer/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/logged-in/tools/customer/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/logged-in/tools/customer/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/logged-in/tools/gallery/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/logged-in/tools/gallery/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/logged-in/tools/invoice/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/logged-in/tools/invoice/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/logged-in/tools/invoice/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/logged-in/tools/invoice/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -210,24 +219,24 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/logged-in/tools/invoice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/customer" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/customer" />
+      <recent name="$PROJECT_DIR$/resources/views/logged-in/tools/selection" />
+      <recent name="$PROJECT_DIR$/resources/views/logged-in/tools" />
+      <recent name="$PROJECT_DIR$/resources/views/logged-in/tools/invoice" />
+      <recent name="$PROJECT_DIR$/resources/views/customer/invoice" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/Models" />
       <recent name="$PROJECT_DIR$/resources/views/logged-in/tools/gallery" />
       <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/resources/views/site" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/logged-in/tools/invoice" />
-      <recent name="$PROJECT_DIR$/resources/views/logged-in/tools" />
-      <recent name="$PROJECT_DIR$/resources/views/customer/invoice" />
-      <recent name="$PROJECT_DIR$/resources/views/customer/gallery" />
-      <recent name="$PROJECT_DIR$/app/Models" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.phpunit.xml">
@@ -291,7 +300,7 @@
       <workItem from="1606308339689" duration="599000" />
       <workItem from="1606363587916" duration="5847000" />
       <workItem from="1606438498643" duration="20648000" />
-      <workItem from="1606509937505" duration="599000" />
+      <workItem from="1606509937505" duration="9226000" />
     </task>
     <servers />
   </component>
@@ -330,10 +339,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2033" y="355" width="576" height="403" key="#com.intellij.fileTypes.FileTypeChooser/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1605913379867" />
-    <state x="2059" y="311" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606461313618">
+    <state x="2059" y="311" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606514753795">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="2059" y="311" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1606461313618" />
+    <state x="2059" y="311" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1606514753795" />
     <state x="1865" y="100" width="912" height="904" key="CommitChangelistDialog2" timestamp="1598653433972">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>

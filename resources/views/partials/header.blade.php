@@ -6,7 +6,7 @@
   <div class="header__text-box">
     <h1 class="heading-primary">
       <span class="heading-primary--main">Fotopro</span>
-      <span class="heading-primary--sub">Fazemos acontecer</span>
+      <span class="heading-primary--sub">Facilitando seu trabalho</span>
     </h1>
 
     <a href="{{ route('register') }}" class="btn btn--white btn--animated">Comece a usar</a>

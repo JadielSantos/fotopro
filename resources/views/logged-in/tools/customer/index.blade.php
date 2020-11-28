@@ -2,7 +2,7 @@
 
 @section('tool')
   <section class="section-customer">
-    <a href="{{ route('customers.create') }}" class="btn btn--green">{{ __('Cadastrar Cliente') }}</a>
+    <a href="{{ route('customers.create') }}" class="btn btn--green u-margin-bottom-small">{{ __('Cadastrar Cliente') }}</a>
 
     @foreach($customers as $customer)
       {{--        <img src="{{ Storage::url($image->path) }} " onclick="myFunction(this);">--}}

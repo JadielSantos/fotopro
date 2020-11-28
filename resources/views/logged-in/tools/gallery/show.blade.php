@@ -2,8 +2,11 @@
 
 @section('tool')
   <section class="section-gallery-item">
-    <h3 class="heading-tertiary">{{ $gallery->title }}</h3>
-    <h3 class="heading-tertiary">{{ $gallery->password }}</h3>
+    <h2 class="heading-secondary">{{ $gallery->title }}</h2>
+    <div class="form__group" style="margin-right: 3rem">
+      <label class="">Senha</label>
+      <h3 class="heading-tertiary">{{ $gallery->password }}</h3>
+    </div>
 
     <div>
       @foreach($gallery->images as $image)

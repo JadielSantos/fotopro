@@ -19,4 +19,8 @@ class ImageSelection extends Model
   public function customer() {
     return $this->belongsTo(Customer::class, 'customer_id', 'id')->first();
   }
+
+  public function path() {
+    return GalleryImage::where('id', 'like', '%' . $this->gallery_image_id .'%')->first()->path;
+  }
 }

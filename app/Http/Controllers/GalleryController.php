@@ -214,6 +214,6 @@ class GalleryController extends Controller
 
     session(['access_invoice' => true]);
 
-    return redirect('pagamentos/' . $invoice->id);
+    return redirect('selecoes/' . $selection->id);
   }
 }

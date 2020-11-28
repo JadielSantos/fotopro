@@ -130,6 +130,8 @@ Route::resource('clientes', 'CustomerController')->names('customers')->parameter
 
 Route::resource('pagamentos', 'InvoiceController')->names('invoices')->parameters(['pagamentos' => 'invoice']);
 
+Route::resource('selecoes', 'SelectionController')->names('selections')->parameters(['selecoes' => 'selection']);
+
 Route::get('/storage', function () {
   Artisan::call('storage:link');
 });

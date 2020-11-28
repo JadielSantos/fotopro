@@ -20,4 +20,8 @@ class Invoice extends Model
   public function user() {
     return Selection::where('invoice_id', 'like', '%' . $this->id .'%')->first()->gallery()->user();
   }
+
+  public function selection() {
+    return Selection::where('invoice_id', 'like', '%' . $this->id .'%')->first()->id;
+  }
 }

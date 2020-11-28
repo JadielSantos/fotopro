@@ -37,7 +37,17 @@
         </div>
 
         <div class="flex__row--item-right">
-          @yield('tool')
+          @hasSection('tool')
+            @yield('tool')
+          @else
+            <div class="form__group">
+              <a href="{{ route('galleries.create') }}" class="btn btn--green">{{ __('Criar Galeria') }}</a>
+            </div>
+
+            <div class="form__group">
+              <a href="{{ route('customers.create') }}" class="btn btn--green">{{ __('Criar Cliente') }}</a>
+            </div>
+          @endif
         </div>
 
       </div>

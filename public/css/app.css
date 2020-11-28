@@ -112,6 +112,23 @@ body {
   box-sizing: border-box;
 }
 
+body::-webkit-scrollbar {
+  width: 2rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #000;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #6394d3;
+  border-radius: 1rem;
+}
+
+body::-webkit-scrollbar-thumb:window-inactive {
+  background: #3e618f;
+}
+
 a:hover,
 a:active {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
@@ -124,6 +141,14 @@ a:visited {
   color: #3e618f;
   display: inline-block;
   text-decoration: none;
+}
+
+.link-item:hover,
+.link-item:active {
+  background-color: #cbcbcb;
+  box-shadow: none !important;
+  transform: scale(1) !important;
+  transition: all 0.2s;
 }
 
 ul {

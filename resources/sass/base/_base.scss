@@ -19,6 +19,25 @@ html {
 
 body {
   box-sizing: border-box;
+
+  &::-webkit-scrollbar {
+    width: 2rem;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $color-black;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $color-primary-light;
+    border-radius: 1rem;
+
+    &:window-inactive {
+      background: $color-primary;
+    }
+  }
+
+
 }
 
 a {
@@ -34,6 +53,16 @@ a {
     color: $color-primary;
     display: inline-block;
     text-decoration: none;
+  }
+}
+
+.link-item {
+  &:hover,
+  &:active {
+    background-color: $color-grey-light-3;
+    box-shadow: none !important;
+    transform: scale(1) !important;
+    transition: all .2s;
   }
 }
 
