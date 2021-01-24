@@ -26,9 +26,7 @@ class GalleryController extends Controller
   {
     if (!Auth::guest()) {
       $galleries = Gallery::where('user_id', 'like', '' . Auth::user()->id . '')->get();
-      return view('logged-in.tools.gallery.index', [
-        'galleries' => $galleries
-      ]);
+      return view('logged-in.tools.gallery.index', compact('galleries'));
     }
   }
 
@@ -113,14 +111,10 @@ class GalleryController extends Controller
   {
     if (!Auth::guest()) {
       if ($gallery->user_id == Auth::user()->id) {
-        return view('logged-in.tools.gallery.show', [
-          'gallery' => $gallery
-        ]);
+        return view('logged-in.tools.gallery.show', compact('gallery'));
       }
     } else {
-      return view('customer.gallery.password', [
-        'gallery' => $gallery
-      ]);
+      return view('customer.gallery.password', compact('gallery'));
     }
   }
 
